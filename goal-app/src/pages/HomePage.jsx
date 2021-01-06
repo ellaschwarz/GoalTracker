@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { GoalContext } from '../contexts/GoalContext';
 import axios from 'axios';
 
-import GoalItem from '../components/GoalItem';
+import GoalItem from '../components/goal/GoalItem';
 
 export default function HomePage() {
 	const { goalData, setGoalData } = useContext(GoalContext);
